@@ -3,10 +3,10 @@
   <channel>
     <title>Graphics-Visualization- Computing-Lab</title>
     <description>Freshman21 is a Jekyll blog theme.</description>
-    <link>http://yulijia.net/freshman21/freshman21/</link>
-    <atom:link href="http://yulijia.net/freshman21/freshman21/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Feb 2015 22:50:12 +0530</pubDate>
-    <lastBuildDate>Sat, 07 Feb 2015 22:50:12 +0530</lastBuildDate>
+    <link>http://yulijia.net/freshman21/</link>
+    <atom:link href="http://yulijia.net/freshman21/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 07 Feb 2015 23:28:42 +0530</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2015 23:28:42 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;(Last updated: Nov-25-2014 by Jaya Sreevalsan-Nair)&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Feb 2015 00:00:00 +0530</pubDate>
-        <link>http://yulijia.net/freshman21/freshman21/howto/2015/02/07/overview.html</link>
-        <guid isPermaLink="true">http://yulijia.net/freshman21/freshman21/howto/2015/02/07/overview.html</guid>
+        <link>http://yulijia.net/freshman21/howto/2015/02/07/overview.html</link>
+        <guid isPermaLink="true">http://yulijia.net/freshman21/howto/2015/02/07/overview.html</guid>
         
         <category>summary</category>
         
@@ -35,8 +35,8 @@
         <description>&lt;p&gt;there is a job opening.&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Feb 2015 00:00:00 +0530</pubDate>
-        <link>http://yulijia.net/freshman21/freshman21/howto/2015/02/07/job-opening.html</link>
-        <guid isPermaLink="true">http://yulijia.net/freshman21/freshman21/howto/2015/02/07/job-opening.html</guid>
+        <link>http://yulijia.net/freshman21/howto/2015/02/07/job-opening.html</link>
+        <guid isPermaLink="true">http://yulijia.net/freshman21/howto/2015/02/07/job-opening.html</guid>
         
         <category>summary</category>
         
