@@ -10,6 +10,7 @@ layout: default
     {% for cat in page.categories %}
     <a href="{{site.url}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
     {% endfor %} 
+   
     {% if page.tags != empty %}
     {{ site.locales[site.default_locale].Taggedwith }}
     {% for tag in page.tags %}

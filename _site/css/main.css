@@ -2,7 +2,7 @@
 /**
  * Reset some basic elements
  */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Arial + Helvetica");
 body, h1, h2, h3, h4,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -13,8 +13,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Arial,Helvetica", sans-serif;
+  font-size: 14px;
   line-height: 1.6em;
   font-weight: 300;
   color: #111;
@@ -80,7 +80,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 12.25px; }
 
 /**
  * Lists
@@ -198,7 +198,7 @@ pre {
 table {
   padding: 0;
   border-collapse: collapse;
-  font-size: 14px; }
+  font-size: 12.25px; }
 
 table tr {
   border-top: 1px solid #cccccc;
@@ -315,7 +315,7 @@ cite {
   margin: 0 -15px 15px;
   font-size: 14px; }
   .sidebar-module h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: #424242; }
   .sidebar-module li {
@@ -345,7 +345,7 @@ cite {
   font-size: 20px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 12.25px;
   color: #828282; }
 
 .post-link {
@@ -432,9 +432,8 @@ time {
  * Aboutme photo Style
  */
 .about img {
-  height: 128px;
-  width: 128px;
-  border-radius: 50%;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   display: block; }
 

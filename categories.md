@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Categories
+title: Gallery
 permalink: /categories/
 ---
 
-<ul class="tags-box">
+<!-- <ul class="tags-box">
 {% if site.posts != empty %}
 {% for cat in site.categories %}
 <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] | join: "/"}}<span class="size"> {{ cat[1].size }}</span></a>
@@ -24,3 +24,4 @@ permalink: /categories/
 {% endif %}
 </ul>
 
+ -->

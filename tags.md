@@ -1,9 +1,16 @@
 ---
 layout: page
-title: Tags
+title: Courses
 premalink: /tags/
 ---
 
+
+- Data Visualization (Fall 2014)
+- Advanced Computer Graphics (Fall 2014)
+- Introduction to Scientific Computing (Spring 2014)
+- Computer Graphics (Fall 2010, Fall 2011, Fall 2013, Spring 2014)
+
+<!-- 
 <ul class="tags-box">
 {% if site.posts != empty %}
 {% for tag in site.tags %}
@@ -23,3 +30,4 @@ premalink: /tags/
 <span>No posts</span>
 {% endif %}
 </ul>
+ -->
