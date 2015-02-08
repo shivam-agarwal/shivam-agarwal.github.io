@@ -2,6 +2,7 @@
 layout: page
 title: Courses
 premalink: /tags/
+shownav: yes
 ---
 
 

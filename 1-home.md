@@ -3,6 +3,7 @@ layout: page
 title: Home
 permalink: /
 homepage: yes
+shownav: yes
 ---
 
 ##Overview

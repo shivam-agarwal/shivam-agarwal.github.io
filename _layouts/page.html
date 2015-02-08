@@ -11,6 +11,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.blog %}
+  {% include posts.html %}
+  {% endif %}
+
   {% if page.comments %}
   {% include comments.html %}
   {% endif %}

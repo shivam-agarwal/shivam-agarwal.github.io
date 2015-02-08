@@ -3,6 +3,7 @@ layout: page
 title: Projects/Funding
 comments: no
 permalink: /projects-funding/
+shownav: yes
 ---
 <br/>
 

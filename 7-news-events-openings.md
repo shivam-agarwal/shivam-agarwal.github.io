@@ -3,6 +3,7 @@ layout: page
 title: News/Events/Openings
 category: news
 premalink: /news/
+shownav: yes
 ---
 <br />
 

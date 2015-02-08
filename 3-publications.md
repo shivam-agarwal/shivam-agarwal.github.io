@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
+shownav: yes
 ---
 
 B. Kumari, A. Ashe, and J. Sreevalsan-Nair, Remote Interactive Visualization

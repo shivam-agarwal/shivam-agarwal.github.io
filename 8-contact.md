@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 premalink: /contact/
+shownav: yes
 ---
 
 - email: gvcl_at_iiitb_dot_ac_dot_in

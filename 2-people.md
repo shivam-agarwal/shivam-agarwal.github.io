@@ -3,6 +3,7 @@ layout: page
 title: People
 comments: no
 permalink: /people/
+shownav: yes
 ---
 
 

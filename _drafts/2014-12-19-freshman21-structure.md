@@ -3,6 +3,7 @@ layout: post
 title: Theme structure
 modified: 2014-12-19
 categories: [articles, Howto]
+authors: [Shivam Agarwal, Amit Tomar]
 tags: 
   - structure
 comments: true

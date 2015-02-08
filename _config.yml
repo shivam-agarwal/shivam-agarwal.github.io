@@ -2,7 +2,7 @@
 title: Graphics - Visualization - Computing - Lab
 tagline: 
 author: Shivam Agarwal
-email: 
+email: "gvcl@iiitb.ac.in"
 description: "GVCL Official Site" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "GVCL, IIITB, Graphics, Visualization, Computing, Lab"
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -55,15 +55,16 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: Freshman21
-      href: http://yulijia.net/freshman21
-      title: Another Jekyll blog theme
-    - name: author's website
-      href: http://yulijia.net/
-      title: Lijia Yu's website
+    - name: 
+      href: 
+      title: 
+    - name: 
+      href: 
+      title: 
 
 
 ### Build settings
 markdown: kramdown
 highlighter: pygments
 paginate: 5
+paginate_path: "articles/page:num"
