@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /archives/
+permalink: /publications/
 ---
 
 B. Kumari, A. Ashe, and J. Sreevalsan-Nair, Remote Interactive Visualization
@@ -20,17 +20,19 @@ J. Sreevalsan-Nair, C. Auer, B. Hamann, and I. Hotz, Eigenvector-based Interpola
 C. Auer, J. Sreevalsan-Nair, V. Zobel, and I. Hotz, 2D Tensor Field Segmentation, 
 Scientific Visualization: Interactions, Features, and Metaphors, Schloss Dagstuhl-Leibniz-Zentrum fur Informatik 2011, vol 2, 17-35.
 
-K. Patel, J. Savalia, and J. Sreevalsan-Nair, Parallelization of Complex Event Processing, Proceedings of the 18th Annual International Conference on High Performance Computing 2011 - Student Research Symposium (HiPC2011-SRS), Dec. 2011, http://www.hipc.org/hipc2011/studsym-papers/1569512661.pdf
+K. Patel, J. Savalia, and J. Sreevalsan-Nair, Parallelization of Complex Event Processing, Proceedings of the 18th Annual International Conference on High Performance Computing 2011 - Student Research Symposium (HiPC2011-SRS), Dec. 2011, [PDF](http://www.hipc.org/hipc2011/studsym-papers/1569512661.pdf)
 
-2002-10
+<br/>
+
+##2002-10
 
 I. Hotz, J. Sreevalsan-Nair, H. Hagen, and B. Hamann,  Tensor Field Reconstruction based on Eigenvector and Eigenvalue Interpolation, Scientific Visualization: Advanced Concepts, Schloss Dagstuhl-Leibniz-Zentrum fur Informatik 2010, vol 1, 110-123.
 
-M. Esteva, W. Xu, J. Sreevalsan-Nair, A. Athalye, and M. Hade, Computational Analysis and Visualization of Electronic Records Collections,  Joint Annual Meeting of the Society of American Archivists and the Council of State Archivists, Austin, TX, August 11, 2009.
+M. Esteva, W. Xu, J. Sreevalsan-Nair, A. Athalye, and M. Hade, [Computational Analysis and Visualization of Electronic Records Collections](http://www.archivists.org/conference/austin2009/AM09-call-precons.asp),  Joint Annual Meeting of the Society of American Archivists and the Council of State Archivists, Austin, TX, August 11, 2009.
 
-M. Esteva, W. Xu, J. Sreevalsan-Nair, M. Hade, and  A. Athalye, Finding Narratives of Activities through Archival Bond in Electronically Stored Information (ESI),  Global E-Discovery/E-Disclosure Workshop: A Pre-conference Workshop at the 12th International Conference on Artificial Intelligence and Law, Barcelona, Spain, August 6, 2009.
+M. Esteva, W. Xu, J. Sreevalsan-Nair, M. Hade, and  A. Athalye, [Finding Narratives of Activities through Archival Bond in Electronically Stored Information (ESI)](http://www.law.pitt.edu/DESI3_Workshop/DESI_III_papers.htm),  Global E-Discovery/E-Disclosure Workshop: A Pre-conference Workshop at the 12th International Conference on Artificial Intelligence and Law, Barcelona, Spain, August 6, 2009.
 
-J. Sreevalsan-Nair, L. Linsen, and B. Hamann, Topologically Accurate Dual Isosurfaces using Ray Intersection, Journal of Virtual Reality and Broadcasting 4(4), 2007 (invited to special issue of Intl Conf on Computer Graphics Theory & Applications, 2006) (Article on the JVRB site).
+J. Sreevalsan-Nair, L. Linsen, and B. Hamann, Topologically Accurate Dual Isosurfaces using Ray Intersection, Journal of Virtual Reality and Broadcasting 4(4), 2007 (invited to special issue of Intl Conf on Computer Graphics Theory & Applications, 2006) [(Article on the JVRB site)](http://www.jvrb.org/4.2007/1170/).
 
 J. Sreevalsan-Nair, M. Verhoeven, D. L. Woodruff, I. Hotz, and B. Hamann, Human-guided enhancement of a stochastic local search: Visualization and adjustment of 3D pheromone, Proceedings of Engineering Stochastic Local Search Algorithms (SLS) 2007, Lecture Notes in Computer Science (LNCS) Series, Vol. 4638, Springer-Verlag, Heidelberg, Germany, pp. 182-186 
 
@@ -44,8 +46,9 @@ J. Sreevalsan-Nair, L. Linsen, B. A. Ahlborn, M. S. Green, and B. Hamann: Hierar
 D. Thompson, R. Machiraju, M. Jiang, J. Nair, G. Craciun, and S. Venkata, 
 Physics-Based Feature Mining for Large Datasets, IEEE Computing in Science and Engineering, Vol. 4, No. 4, 2002, pp 22-30.
 
+<br/>
 
-Miscellaneous
+##Miscellaneous
 B. Kumari, and J. Sreevalsan-Nair, “Three-dimensional Visualization
 of LiDAR Point Cloud Using Structural Feature Extraction,” in Proceedings of
 NSDI (National Spatial Data Infrastructure) 2013 and Poster presentation.

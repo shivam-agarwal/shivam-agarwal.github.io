@@ -1,8 +1,13 @@
 ---
 layout: page
 title: Gallery
-permalink: /categories/
+permalink: /gallery/
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_HoCsoJ1SM" frameborder="0" allowfullscreen></iframe>
+
+
+
 
 <!-- <ul class="tags-box">
 {% if site.posts != empty %}

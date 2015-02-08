@@ -214,11 +214,17 @@ table tr th {
   border: 1px solid #cccccc;
   margin: 0;
   padding: 3px 6px; }
+  @media screen and (max-width: 800px) {
+    table tr th {
+      border: none; } }
 
 table tr td {
   border: 1px solid #cccccc;
   margin: 0;
   padding: 3px 6px; }
+  @media screen and (max-width: 800px) {
+    table tr td {
+      border: none; } }
 
 table tr th :first-child, table tr td :first-child {
   margin-top: 0; }
@@ -255,6 +261,9 @@ cite {
     color: #2583ad;
     border-bottom: 1px dotted;
     text-decoration: none; }
+  @media screen and (max-width: 800px) {
+    .site-title {
+      font-size: 0px; } }
 
 .site-meta {
   font-size: 20px;

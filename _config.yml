@@ -1,10 +1,10 @@
 ### Site info:
-title: Graphics-Visualization- Computing-Lab
+title: Graphics-Visualization-Computing-Lab
 tagline: 
-author: Lijia YU
+author: Shivam Agarwal
 email: 
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+description: "GVCL Official Site" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "GVCL, IIITB, Graphics, Visualization, Computing, Lab"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
@@ -15,7 +15,7 @@ github_username:
 disqus_shortname: 
 favicon:     "/images/favicon.ico"
 aboutme: GVCL # these are shown on aboutme-sidebar.
-aboutme_photo: http://www.iiitb.ac.in/GVCL/images/gvcl_logo.jpg # your photo.
+aboutme_photo: assets/images/gvcl_logo.jpg # your photo.
 
 
 ### Site setting:

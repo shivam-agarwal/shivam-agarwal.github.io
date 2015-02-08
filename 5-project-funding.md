@@ -2,8 +2,10 @@
 layout: page
 title: Projects/Funding
 comments: no
-permalink: /guestbook/
+permalink: /projects-funding/
 ---
+<br/>
+
 ##Current Projects
 
 - Feature extraction and interactive visualization of 3-dimensional LiDaR point data sets (Abstract (.pdf)). 
@@ -11,6 +13,8 @@ permalink: /guestbook/
 - Visualization of work flow for security analytics (Abstract (.pdf))
 - 3-dimensional interactive visualization of large-scale ARGO data (Abstract (.pdf)).
 - Medical visualization (Abstract - coming soon!)
+
+<br/>
 
 ##Funding
 
@@ -22,6 +26,8 @@ permalink: /guestbook/
 - Project on LiDaR point cloud visualization
 - [08/2011] - Grant from NVIDIA designating IIIT-Bangalore as NVIDIA's Cuda Teaching Center.
 - Teaching kit with six graphics card
+
+<br/>
 
 ##Past Projects
 
