@@ -1,13 +1,11 @@
 ---
-published: true
-title: Overview
-layout: post
-summary: This post show us how to create a post summary step by step. 
-author: Jaya
-category: howto
-tags:
-- summary
+layout: page
+title: Home
+permalink: /
+homepage: yes
 ---
+
+##Overview
 
 At the Graphics-Visualization-Computing-Lab at IIIT-Bangalore, we focus in research and development in scientific and information visualization, GPGPU (general purpose GPU computing) and graphics.
 
