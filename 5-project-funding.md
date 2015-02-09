@@ -12,7 +12,7 @@ shownav: yes
 - Feature extraction and interactive visualization of 3-dimensional LiDaR point data sets [Abstract (.pdf)]( {{ site.baseurl}}/assets/projects/GVCL_lidar.pdf ). 
 - Visualization of small world networks using similarity matrices [Abstract (.pdf)]( {{ site.baseurl}}/assets/projects/GVCL_smallworldnetworks.pdf ).
 - Visualization of work flow for security analytics [Abstract (.pdf)]( {{ site.baseurl}}/assets/projects/GVCL_workflowsecurityanalytics.pdf ).
-- 3-dimensional interactive visualization of large-scale ARGO data [Abstract (.pdf)( {{ site.baseurl }}/assets/projects/GVCL_oceanargo.pdf ).
+- 3-dimensional interactive visualization of large-scale ARGO data [Abstract (.pdf)]( {{ site.baseurl }}/assets/projects/GVCL_oceanargo.pdf ).
 - Medical visualization (Abstract - coming soon!)
 
 <br/>
