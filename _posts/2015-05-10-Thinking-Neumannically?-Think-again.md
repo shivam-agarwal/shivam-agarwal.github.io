@@ -21,6 +21,8 @@ Do we ever imagine that so much is going on when we simply do a “quick” chec
 
 This article is going to be about the most basic element which started the revolution of Digital Computers.
 
+<!-- more -->
+
 **Question**- Have you ever wondered that in the name **John von Neumann**, von starts with a small case v?
 
 One of my great teachers always says – “Tum dekhta hai par dekhta nai”, means we see but we don’t observe. The question above stands a testimony of the quote.
@@ -42,14 +44,14 @@ Imagine a computer where Instructions reside in different memory and data in a d
 The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! 
 
 **The term "von Neumann bottleneck" was coined by John Backus in his 1977 ACM Turing Award lecture.** According to Backus:
-
-<cite>“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”</cite>
+## Blockquotes
+“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”
 
 To make it simpler, we all know about instruction set and simple C.
 
 Suppose we want to add two numbers. The c statement will be:
 
-c=a + b;
+c = a + b;
 
 Where a, b, c are variables.
 Finally it will be converted into a sequence of instructions such as:

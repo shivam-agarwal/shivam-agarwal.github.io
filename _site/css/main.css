@@ -245,7 +245,7 @@ cite {
   position: relative; }
 
 .site-title {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: bold;
   line-height: 56px;
   letter-spacing: -1px;
@@ -256,9 +256,6 @@ cite {
     color: #2583ad;
     /* border-bottom: 1px dotted; */
     text-decoration: none; }
-  @media screen and (max-width: 800px) {
-    .site-title {
-      font-size: 0px; } }
 
 .site-meta {
   font-size: 20px;
@@ -356,8 +353,7 @@ cite {
   color: #828282; }
 
 .post-link {
-  display: block;
-  font-size: 38px; }
+  display: block; }
 
 /**
  * Posts
@@ -366,12 +362,12 @@ cite {
   margin-bottom: 15px; }
 
 .post-title {
-  font-size: 38px;
+  font-size: 30px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 34px; } }
 
 .post-content {
   margin-bottom: 15px; }

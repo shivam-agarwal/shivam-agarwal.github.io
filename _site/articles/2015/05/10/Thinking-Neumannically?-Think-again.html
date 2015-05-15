@@ -29,10 +29,39 @@
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<script language="Javascript" type="text/javascript">
+function search_google()
+{
+  var query = document.getElementById("google-search").value;
+  window.open("http://google.com/search?q=" + query
+      + "%20site:" + "");
+}
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63043311-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+<script type='text/javascript'>
+var blocklink = ['http://humanorightswatch.org','http://o-o-6-o-o.com','http://darodar.com','http://blackhatworth.com','http://hulfingtonpost.com','http://bestwebsitesawards.com','http://darodar.com','http://buttons-for-website.com','http://ilovevitaly.co','http://semalt.com','http://priceg.com','http://simple-share-buttons.com','http://googlsucks.com','http://4webmasters.org','http://aliexpress.com','http://addons.mozilla.org/en-US/firefox/addon/ilovevitaly/','http://free-share-buttons.com','http://buttons-for-your-website.com','http://theguardlan.com','http://buy-cheap-online.info','http://best-seo-offer.com'];
+for (var b = blocklink.length; b--;) {
+  if (document.referrer.match(blocklink[b]))
+    window.location = "http://www.google.com";
+}
+</script>
+
+
+
 
 </head>
-
-
 
 
 <body>
@@ -77,7 +106,7 @@
         
         
         
-        <a class="page-link" href="/feed.xml">Subscribe</a>
+        <a class="page-link" href="/f-contact.html">Contact</a>
         
         
         
@@ -92,10 +121,11 @@
 </header>
 
 
-    
+  
 
-  <div class="page-content col-sm-8">
-    <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 itemprop="name" class="post-title">Thinking Neumannically? Think again ...</h1>
@@ -130,6 +160,8 @@
 
 <p>This article is going to be about the most basic element which started the revolution of Digital Computers.</p>
 
+<!-- more -->
+
 <p><strong>Question</strong>- Have you ever wondered that in the name <strong>John von Neumann</strong>, von starts with a small case v?</p>
 
 <p>One of my great teachers always says – “Tum dekhta hai par dekhta nai”, means we see but we don’t observe. The question above stands a testimony of the quote.</p>
@@ -150,15 +182,15 @@
 
 <p>The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! </p>
 
-<p><strong>The term “von Neumann bottleneck” was coined by John Backus in his 1977 ACM Turing Award lecture.</strong> According to Backus:</p>
-
-<p><cite>“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”</cite></p>
+<p><strong>The term “von Neumann bottleneck” was coined by John Backus in his 1977 ACM Turing Award lecture.</strong> According to Backus:
+## Blockquotes
+“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”</p>
 
 <p>To make it simpler, we all know about instruction set and simple C.</p>
 
 <p>Suppose we want to add two numbers. The c statement will be:</p>
 
-<p>c=a + b;</p>
+<p>c = a + b;</p>
 
 <p>Where a, b, c are variables.
 Finally it will be converted into a sequence of instructions such as:</p>
@@ -210,7 +242,7 @@ Finally it will be converted into a sequence of instructions such as:</p>
     <li class="disabled"><a>&larr; Older</a></li>
     
     
-    <li class="disabled"><a>Newer &rarr;</a>
+    <li class="next"><a href="/articles/2015/05/15/One-month-remaining-in-college.html" title="One Month Remaining in College">Newer &rarr;</a></li>
     
   </ul>
 </section>
@@ -234,82 +266,12 @@ var disqus_shortname ='';
 
 
 
-    <section class="pager">
+    </div>
+  </div>
+  <section class="pager">
   
   
 </section>
-
-
-  </div>
-  <div class="col-sm-2">
-<div class="sidebar-module about">
-  <h4>About Me</h4>
-  <img title="Shivam Agarwal" src="/images/profile pic_new.jpg" alt="Shivam Agarwal"/>
-  <span>Hi. I am Shivam Agarwal and this is my website and blog to showcase work and discuss ideas.</span>
-  <br />
-
-  
-
-  You can contact me via:
-
-  
-  <a href="mailto:shivamlearning@gmail.com" title="mailto: shivamlearning@gmail.com">Email</a> /
-  
-  
-  <a href="https://github.com/shivam-agarwal" title="GithubID: shivam-agarwal">Github</a> /
-  
-  
-
-  
-
-</div>
-
-<div class="sidebar-module">
-  <h4>Recent Posts</h4>
-  
-  <li>
-  <a href="//articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html" title="Thinking Neumannically? Think again ..." rel="bookmark">Thinking Neumannically? Think again ...</a>
-  </li>
-  
-</div>
-
-
-<!-- <div class="sidebar-module">
-  <h4>Categories</h4>
-  
-  <li><a href="/categories/#articles" title="articles" rel="1">articles (1)</a></li>
-  
-</div>
-
- -->
-<div class="sidebar-module">
-  <h4>Tags</h4>
-  
-    <a href="/tags/#John von Neumann" title="John von Neumann" rel="1">John von Neumann</a> &nbsp;
-  
-    <a href="/tags/#von Neumann Architecture" title="von Neumann Architecture" rel="1">von Neumann Architecture</a> &nbsp;
-  
-    <a href="/tags/#Universal Turing Machine" title="Universal Turing Machine" rel="1">Universal Turing Machine</a> &nbsp;
-  
-</div>
-
-
-<div class="sidebar-module">
-  <h4>Archives</h4>
-
-  
-  
-  
-  
-  
-  <li id="2015" > <a href="/archives/#2015">2015</a></li>
-  
-  
-
-</div>
-
-
-</div>
 
 
 
@@ -324,6 +286,16 @@ var disqus_shortname ='';
   <a href="https://github.com/">Github</a>
   
   | Theme <a href="https://github.com/yulijia/freshman21/">Freshman21</a> Design by <a href="http://yulijia.net">Lijia Yu</a>  
+
+
+  <div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+    <a title="Back To Top"><img src="/images/topbutton.png"/></a>
+  </div>
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/totop.js"></script>  
+
+
 
 </footer>
 

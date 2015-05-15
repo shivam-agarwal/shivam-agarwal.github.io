@@ -29,10 +29,39 @@
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<script language="Javascript" type="text/javascript">
+function search_google()
+{
+  var query = document.getElementById("google-search").value;
+  window.open("http://google.com/search?q=" + query
+      + "%20site:" + "");
+}
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63043311-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+<script type='text/javascript'>
+var blocklink = ['http://humanorightswatch.org','http://o-o-6-o-o.com','http://darodar.com','http://blackhatworth.com','http://hulfingtonpost.com','http://bestwebsitesawards.com','http://darodar.com','http://buttons-for-website.com','http://ilovevitaly.co','http://semalt.com','http://priceg.com','http://simple-share-buttons.com','http://googlsucks.com','http://4webmasters.org','http://aliexpress.com','http://addons.mozilla.org/en-US/firefox/addon/ilovevitaly/','http://free-share-buttons.com','http://buttons-for-your-website.com','http://theguardlan.com','http://buy-cheap-online.info','http://best-seo-offer.com'];
+for (var b = blocklink.length; b--;) {
+  if (document.referrer.match(blocklink[b]))
+    window.location = "http://www.google.com";
+}
+</script>
+
+
+
 
 </head>
-
-
 
 
 <body>
@@ -77,7 +106,7 @@
         
         
         
-        <a class="page-link" href="/feed.xml">Subscribe</a>
+        <a class="page-link" href="/f-contact.html">Contact</a>
         
         
         
@@ -92,14 +121,49 @@
 </header>
 
 
+  
+
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="home">
+  <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+
     
 
-  <div class="page-content col-sm-8">
-    <div class="home">
-  <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/articles/2015/05/15/One-month-remaining-in-college.html">One Month Remaining in College</a>
+      </h1>
+      <meta itemprop="keywords" content="Masters" />
+      <p class="post-meta">
+      Posted in
+      
+      <a href="/categories/#articles">articles</a>&nbsp;
+      
+      
+      and tagged
+      
+      <a href="/tags/#Masters" title="Masters">Masters </a>
+      
+      
+      <time itemprop="datePublished" datetime="2015-05-15">
+        on May 15, 2015
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p>Exactly one month from today, our work in IIIT-B will be officially finished. Farewell from any place brings a lot of memories and thoughts. Thoughts which lead a person to fetch answers of some questions like - how fruitful it was, what next etc.</p>
+
+<p>Currently I am tied up in my thesis work and have to finish it with full zeal and concentration. Though I have not done very significant amount of work, it surely has removed the fear of few subjects. For this I will be very thankful to my supervisor and friends.</p>
+
+      
+    </article>
+    <hr />
+
     
-    
-  
+
     <header class="post-header">
       <h1 itemprop="name" class="post-title">
         <a itemprop="url" class="post-link" href="/articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html">Thinking Neumannically? Think again ...</a>
@@ -121,12 +185,13 @@
       
       
       <time itemprop="datePublished" datetime="2015-05-10">
-      on May 10, 2015
+        on May 10, 2015
       </time>
       </p>
     </header>
 
     <article class="post-content" itemprop="articleBody">
+      
       <p>i7 processors having 2.7 GHz clock speed, boosted to 3.3 GHz. Means in one second 3300000000 clock cycles are executed, capable of executing 92 billion instructions per second.</p>
 
 <p>It certainly leaves you with a chill feeling. Isn’t it?</p>
@@ -135,158 +200,23 @@
 
 <p>This article is going to be about the most basic element which started the revolution of Digital Computers.</p>
 
-<p><strong>Question</strong>- Have you ever wondered that in the name <strong>John von Neumann</strong>, von starts with a small case v?</p>
 
-<p>One of my great teachers always says – “Tum dekhta hai par dekhta nai”, means we see but we don’t observe. The question above stands a testimony of the quote.</p>
+      <p style="text-align: right"><a href="/articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html">Read more</a></p>
+      
+    </article>
+    <hr />
 
-<p>While building EDVAC (Electronic Discrete Variable Automatic Computer, a computer weighing 7850 kg.), an architecture was proposed as von Neumann Architecture.</p>
-
-<p>Now why are we discussing an architecture that was introduced over 60 years ago? Because, even today you pick any desktop computer and it still uses the same architecture.</p>
-
-<p>John von Neumann was a great mathematician. As the greatest inventions have simplest underlying principle, von Neumann architecture is no exception.</p>
-
-<p>It says that program and data reside in same memory. There is a connection between CPU and memory (RAM), called bus. At a time CPU can either be fetching/writing data or fetching an instruction from memory. It’s simple right?</p>
-
-<p>If you’re an Undergraduate in Computer Science, I bet some bells must be ringing in your mind. I’ll give you a hint, it’s called – <strong>“Universal Turing Machine”</strong>, which reads data from memory (through a memory tape) executed it and again writes back the result in memory. It’s not just a coincidence for two concepts so similar to emerge in near about the same time. Many of us don’t know but Alan Turing and John von Neumann worked together to shape the computers as we see them today. </p>
-
-<p>Coming back to the von Neumann architecture, we still use it with some modifications. Like cache has been inserted to get better speed. But that too is only a modification since at a time processor can either fetch an instruction or fetch/write data. So what’s so great about it that we still use it (no offense to sir Neumann). It’s simplicity of performing either of the tasks is the main reason why it’s still used. </p>
-
-<p>Imagine a computer where Instructions reside in different memory and data in a different one (this is Harvard architecture). The problem will be when to select what has to be done and then the selection would itself require some computation to be done which would again be performed by the same CPU. This complexity has forced processor makers to think in terms of Neumann architecture.</p>
-
-<p>The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! </p>
-
-<p><strong>The term “von Neumann bottleneck” was coined by John Backus in his 1977 ACM Turing Award lecture.</strong> According to Backus:</p>
-
-<p><cite>“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”</cite></p>
-
-<p>To make it simpler, we all know about instruction set and simple C.</p>
-
-<p>Suppose we want to add two numbers. The c statement will be:</p>
-
-<p>c=a + b;</p>
-
-<p>Where a, b, c are variables.
-Finally it will be converted into a sequence of instructions such as:</p>
-
-<p>LDA  a</p>
-
-<p>ADD b</p>
-
-<p>STA  c</p>
-
-<p>Further will be converted to:</p>
-
-<p>DR -&gt; M[a]   //DR- data register M[a]- stands for memory reference at address a. </p>
-
-<p>AC -&gt; DR         // AC – accumulator register </p>
-
-<p>DR -&gt; M[b]</p>
-
-<p>AC -&gt; AC + DR</p>
-
-<p>M[c] -&gt; AC</p>
-
-<p>We observe that at one time either the data or an instruction (such as addition) is fetched from memory (and hence the Neumann architecture). </p>
-
-<p>That means computer has to perform tasks serially? Yes, it performs tasks serially at this level. But today parallelism is achieved today using computers based on von Neumann architectures in a different way through threads and employing multiple processors in a system. You can find a great practical article here. </p>
-
-<p>But from our previous program we can see how von Neumann architecture forces high level language developers to think in Neumann way. Read <a href="http://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf">“this”</a> article and you will be amazed.</p>
-
-<p>There are systems build on Harvard architecture. But due to the concept of Cache memory we use today (which is modified Harvard architecture), the Harvard architecture is of little practical use.</p>
-
-<p>In my opinion John von Neumann was a great administrator too, coz he employed the greatest administration rule, which was <strong>Keep It Short and Simple</strong>, unlike this article. :P</p>
-
-<p>Oh I almost forgot to answer: <strong>why v is in small case in the name John von Neumann?</strong></p>
-
-<p>The answer is- <strong>go GOOGLE it!!</strong>  Self learning is the best.</p>
-
-<p>Be force with you.</p>
-
-<p>Further Read <a href="http://qss.stanford.edu/~godfrey/vonNeumann/vnedvac.pdf">“The First Draft Report on the EDVAC”</a>. </p>
-
-    </article> <hr />
     
-    
-  
+
   </div>
 </div>
 
-    <section class="pager">
+    </div>
+  </div>
+  <section class="pager">
   
   
 </section>
-
-
-  </div>
-  <div class="col-sm-2">
-<div class="sidebar-module about">
-  <h4>About Me</h4>
-  <img title="Shivam Agarwal" src="/images/profile pic_new.jpg" alt="Shivam Agarwal"/>
-  <span>Hi. I am Shivam Agarwal and this is my website and blog to showcase work and discuss ideas.</span>
-  <br />
-
-  
-
-  You can contact me via:
-
-  
-  <a href="mailto:shivamlearning@gmail.com" title="mailto: shivamlearning@gmail.com">Email</a> /
-  
-  
-  <a href="https://github.com/shivam-agarwal" title="GithubID: shivam-agarwal">Github</a> /
-  
-  
-
-  
-
-</div>
-
-<div class="sidebar-module">
-  <h4>Recent Posts</h4>
-  
-  <li>
-  <a href="//articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html" title="Thinking Neumannically? Think again ..." rel="bookmark">Thinking Neumannically? Think again ...</a>
-  </li>
-  
-</div>
-
-
-<!-- <div class="sidebar-module">
-  <h4>Categories</h4>
-  
-  <li><a href="/categories/#articles" title="articles" rel="1">articles (1)</a></li>
-  
-</div>
-
- -->
-<div class="sidebar-module">
-  <h4>Tags</h4>
-  
-    <a href="/tags/#John von Neumann" title="John von Neumann" rel="1">John von Neumann</a> &nbsp;
-  
-    <a href="/tags/#von Neumann Architecture" title="von Neumann Architecture" rel="1">von Neumann Architecture</a> &nbsp;
-  
-    <a href="/tags/#Universal Turing Machine" title="Universal Turing Machine" rel="1">Universal Turing Machine</a> &nbsp;
-  
-</div>
-
-
-<div class="sidebar-module">
-  <h4>Archives</h4>
-
-  
-  
-  
-  
-  
-  <li id="2015" > <a href="/archives/#2015">2015</a></li>
-  
-  
-
-</div>
-
-
-</div>
 
 
 
@@ -301,6 +231,16 @@ Finally it will be converted into a sequence of instructions such as:</p>
   <a href="https://github.com/">Github</a>
   
   | Theme <a href="https://github.com/yulijia/freshman21/">Freshman21</a> Design by <a href="http://yulijia.net">Lijia Yu</a>  
+
+
+  <div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+    <a title="Back To Top"><img src="/images/topbutton.png"/></a>
+  </div>
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/totop.js"></script>  
+
+
 
 </footer>
 
