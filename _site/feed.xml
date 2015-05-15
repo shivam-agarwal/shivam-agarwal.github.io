@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shivam Agarwal</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/zfeed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 May 2015 20:27:48 +0530</pubDate>
+    <lastBuildDate>Fri, 15 May 2015 20:27:48 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Thinking Neumannically? Think again ...</title>
+        <description>&lt;p&gt;i7 processors having 2.7 GHz clock speed, boosted to 3.3 GHz. Means in one second 3300000000 clock cycles are executed, capable of executing 92 billion instructions per second.&lt;/p&gt;
+
+&lt;p&gt;It certainly leaves you with a chill feeling. Isn’t it?&lt;/p&gt;
+
+&lt;p&gt;Do we ever imagine that so much is going on when we simply do a “quick” check of our facebook account and that too several times a day?&lt;/p&gt;
+
+&lt;p&gt;This article is going to be about the most basic element which started the revolution of Digital Computers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;- Have you ever wondered that in the name &lt;strong&gt;John von Neumann&lt;/strong&gt;, von starts with a small case v?&lt;/p&gt;
+
+&lt;p&gt;One of my great teachers always says – “Tum dekhta hai par dekhta nai”, means we see but we don’t observe. The question above stands a testimony of the quote.&lt;/p&gt;
+
+&lt;p&gt;While building EDVAC (Electronic Discrete Variable Automatic Computer, a computer weighing 7850 kg.), an architecture was proposed as von Neumann Architecture.&lt;/p&gt;
+
+&lt;p&gt;Now why are we discussing an architecture that was introduced over 60 years ago? Because, even today you pick any desktop computer and it still uses the same architecture.&lt;/p&gt;
+
+&lt;p&gt;John von Neumann was a great mathematician. As the greatest inventions have simplest underlying principle, von Neumann architecture is no exception.&lt;/p&gt;
+
+&lt;p&gt;It says that program and data reside in same memory. There is a connection between CPU and memory (RAM), called bus. At a time CPU can either be fetching/writing data or fetching an instruction from memory. It’s simple right?&lt;/p&gt;
+
+&lt;p&gt;If you’re an Undergraduate in Computer Science, I bet some bells must be ringing in your mind. I’ll give you a hint, it’s called – &lt;strong&gt;“Universal Turing Machine”&lt;/strong&gt;, which reads data from memory (through a memory tape) executed it and again writes back the result in memory. It’s not just a coincidence for two concepts so similar to emerge in near about the same time. Many of us don’t know but Alan Turing and John von Neumann worked together to shape the computers as we see them today. &lt;/p&gt;
+
+&lt;p&gt;Coming back to the von Neumann architecture, we still use it with some modifications. Like cache has been inserted to get better speed. But that too is only a modification since at a time processor can either fetch an instruction or fetch/write data. So what’s so great about it that we still use it (no offense to sir Neumann). It’s simplicity of performing either of the tasks is the main reason why it’s still used. &lt;/p&gt;
+
+&lt;p&gt;Imagine a computer where Instructions reside in different memory and data in a different one (this is Harvard architecture). The problem will be when to select what has to be done and then the selection would itself require some computation to be done which would again be performed by the same CPU. This complexity has forced processor makers to think in terms of Neumann architecture.&lt;/p&gt;
+
+&lt;p&gt;The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The term “von Neumann bottleneck” was coined by John Backus in his 1977 ACM Turing Award lecture.&lt;/strong&gt; According to Backus:&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;To make it simpler, we all know about instruction set and simple C.&lt;/p&gt;
+
+&lt;p&gt;Suppose we want to add two numbers. The c statement will be:&lt;/p&gt;
+
+&lt;p&gt;c=a + b;&lt;/p&gt;
+
+&lt;p&gt;Where a, b, c are variables.
+Finally it will be converted into a sequence of instructions such as:&lt;/p&gt;
+
+&lt;p&gt;LDA  a&lt;/p&gt;
+
+&lt;p&gt;ADD b&lt;/p&gt;
+
+&lt;p&gt;STA  c&lt;/p&gt;
+
+&lt;p&gt;Further will be converted to:&lt;/p&gt;
+
+&lt;p&gt;DR -&amp;gt; M[a]   //DR- data register M[a]- stands for memory reference at address a. &lt;/p&gt;
+
+&lt;p&gt;AC -&amp;gt; DR         // AC – accumulator register &lt;/p&gt;
+
+&lt;p&gt;DR -&amp;gt; M[b]&lt;/p&gt;
+
+&lt;p&gt;AC -&amp;gt; AC + DR&lt;/p&gt;
+
+&lt;p&gt;M[c] -&amp;gt; AC&lt;/p&gt;
+
+&lt;p&gt;We observe that at one time either the data or an instruction (such as addition) is fetched from memory (and hence the Neumann architecture). &lt;/p&gt;
+
+&lt;p&gt;That means computer has to perform tasks serially? Yes, it performs tasks serially at this level. But today parallelism is achieved today using computers based on von Neumann architectures in a different way through threads and employing multiple processors in a system. You can find a great practical article here. &lt;/p&gt;
+
+&lt;p&gt;But from our previous program we can see how von Neumann architecture forces high level language developers to think in Neumann way. Read &lt;a href=&quot;http://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf&quot;&gt;“this”&lt;/a&gt; article and you will be amazed.&lt;/p&gt;
+
+&lt;p&gt;There are systems build on Harvard architecture. But due to the concept of Cache memory we use today (which is modified Harvard architecture), the Harvard architecture is of little practical use.&lt;/p&gt;
+
+&lt;p&gt;In my opinion John von Neumann was a great administrator too, coz he employed the greatest administration rule, which was &lt;strong&gt;Keep It Short and Simple&lt;/strong&gt;, unlike this article. :P&lt;/p&gt;
+
+&lt;p&gt;Oh I almost forgot to answer: &lt;strong&gt;why v is in small case in the name John von Neumann?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer is- &lt;strong&gt;go GOOGLE it!!&lt;/strong&gt;  Self learning is the best.&lt;/p&gt;
+
+&lt;p&gt;Be force with you.&lt;/p&gt;
+
+&lt;p&gt;Further Read &lt;a href=&quot;http://qss.stanford.edu/~godfrey/vonNeumann/vnedvac.pdf&quot;&gt;“The First Draft Report on the EDVAC”&lt;/a&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 May 2015 00:00:00 +0530</pubDate>
+        <link>/articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html</link>
+        <guid isPermaLink="true">/articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html</guid>
+        
+        <category>John von Neumann</category>
+        
+        <category>von Neumann Architecture</category>
+        
+        <category>Universal Turing Machine</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+  </channel>
+</rss>

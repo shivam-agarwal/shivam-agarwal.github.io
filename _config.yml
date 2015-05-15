@@ -1,26 +1,26 @@
 ### Site info:
-title: Graphics - Visualization - Computing - Lab
+title: Shivam Agarwal
 tagline: 
 author: Shivam Agarwal
-email: "gvcl@iiitb.ac.in"
-description: "GVCL Official Site" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "GVCL, IIITB, Graphics, Visualization, Computing, Lab"
-baseurl: "" # the subpath of your site, e.g. /blog/
+email: shivamlearning@gmail.com
+description: "" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "Website, Blog, Shivam Agarwal"
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-
+locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: 
-github_username:  
-disqus_shortname: 
+twitter_username: ""
+github_username:  shivam-agarwal
+disqus_shortname: ""
 favicon:     "/images/favicon.ico"
-aboutme: GVCL # these are shown on aboutme-sidebar.
-aboutme_photo: assets/images/gvcl_logo.jpg # your photo.
+aboutme: Hi. I am Shivam Agarwal and this is my website and blog to showcase work and discuss ideas. # these are shown on aboutme-sidebar.
+aboutme_photo: /images/profile pic_new.jpg # your photo.
 
 
 ### Site setting:
-ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
-default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
 locales:
@@ -30,7 +30,7 @@ locales:
       Blogroll: "Blogroll"
       Categories: "Categories"
       Copyright_Notice: "Copyright Notice"
-      Resent_Posts: "Resent Posts"
+      Recent_Posts: "Recent Posts"
       Tags: "Tags"
       Previous: "Older"
       Next: "Newer"
@@ -43,7 +43,7 @@ locales:
       Blogroll: "良师益友"        
       Categories: "分类目录"    
       Copyright_Notice: "版权声明"
-      Resent_Posts: "近期文章"
+      Recent_Posts: "近期文章"
       Tags: "标签" 
       Previous: "前一页"
       Next: "后一页"
@@ -55,16 +55,15 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: 
-      href: 
-      title: 
-    - name: 
-      href: 
-      title: 
+    - name: Freshman21
+      href: http://yulijia.net/freshman21
+      title: Another Jekyll blog theme
+    - name: author's website
+      href: http://yulijia.net/
+      title: Lijia Yu's website
 
 
 ### Build settings
 markdown: kramdown
 highlighter: pygments
 paginate: 5
-paginate_path: "articles/page:num"

@@ -2,18 +2,8 @@
 
   <div class="wrapper">
 
-    <table>
-      <tr>
-         <td><a href="{{ site.baseurl }}/"><img title="{{site.title}}" src="{{site.baseurl}}/{{site.aboutme_photo}}" alt="{{site.title}}"/></a>
-        </td>
-        <td><h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-             <h3 class="site-meta">{{ site.tagline }}</h3>
-        </td>
-      </tr>
-    </table>
-
- 
-    
+    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <h3 class="site-meta">{{ site.tagline }}</h3>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -25,11 +15,10 @@
       </a>
       <div class="trigger">
         {% for page in site.pages %}
-        {% if page.shownav %}
+        {% if page.title %}
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
         {% endfor %}
-        <a class="page-link" href="{{site.baseurl}}/articles/index.html">Articles</a>
       </div>
     </nav>
 
