@@ -19,7 +19,7 @@ It certainly leaves you with a chill feeling. Isn’t it?
 
 Do we ever imagine that so much is going on when we simply do a “quick” check of our facebook account and that too several times a day?
 
-This article is going to be about the most basic element which started the revolution of Digital Computers.
+This article is going to be about the most basic element which started the revolution of Digital Computers...
 
 <!-- more -->
 
@@ -44,8 +44,8 @@ Imagine a computer where Instructions reside in different memory and data in a d
 The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! 
 
 **The term "von Neumann bottleneck" was coined by John Backus in his 1977 ACM Turing Award lecture.** According to Backus:
-## Blockquotes
-“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”
+<cite>
+“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”</cite>
 
 To make it simpler, we all know about instruction set and simple C.
 
@@ -89,6 +89,6 @@ Oh I almost forgot to answer: **why v is in small case in the name John von Neum
 
 The answer is- **go GOOGLE it!!**  Self learning is the best.
 
-Be force with you.
+**Be force with you.**
 
 Further Read [“The First Draft Report on the EDVAC"](http://qss.stanford.edu/~godfrey/vonNeumann/vnedvac.pdf). 
