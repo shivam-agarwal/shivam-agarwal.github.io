@@ -39,7 +39,7 @@
 
 .site-nav {
   /*float: right;*/
-
+  text-align: center;
   margin-top: 10px;
   line-height: 56px;
   border-top: 1px solid $grey-color-light;
@@ -169,8 +169,13 @@
   color: $grey-color;
 }
 
-.post-link {
+.post-title a, .post-title a:visited .post-title a:hover{
+  color:$darkcyan;
+}
+
+ .post-link {
   display: block;
+  color: $darkcyan;
   //font-size: 38px;//42px;
 }
 
@@ -181,6 +186,7 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+
 }
 
 .post-title {
