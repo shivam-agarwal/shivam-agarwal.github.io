@@ -6,13 +6,13 @@ email: shivamlearning@gmail.com
 description: "" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Website, Blog, Shivam Agarwal"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: http://www/shivam-agarwal.github.io # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
 twitter_username: ""
 github_username:  shivam-agarwal
-disqus_shortname: ""
+disqus_shortname: shivamagarwal
 favicon:     "/images/favicon.ico"
 aboutme: Hi. I am Shivam Agarwal and this is my website and blog to showcase work and discuss ideas. # these are shown on aboutme-sidebar.
 aboutme_photo: /images/profile pic_new.jpg # your photo.
