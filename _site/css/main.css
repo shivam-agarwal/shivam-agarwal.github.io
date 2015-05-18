@@ -364,7 +364,8 @@ cite {
  * Posts
  */
 .post-header {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  color: #008b8b; }
 
 .post-title {
   font-size: 30px;
