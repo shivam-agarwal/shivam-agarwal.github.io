@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shivam Agarwal</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/zfeed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 May 2015 15:12:54 +0530</pubDate>
+    <lastBuildDate>Mon, 18 May 2015 15:12:54 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Write a program to check for a Leap Year. Sounds easy right?</title>
+        <description>&lt;p&gt;I am sure everyone has at least once witnessed a complex system which always seem to be a very simple one. We take these simple systems for granted and assume that this is how it must work. But digging deeper in the history we often find something which is amazing and shakes our entire understanding of the system. &lt;strong&gt;Gregorian calender&lt;/strong&gt; system is one such system. How? Let’s find out…&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;An year, in very simple terms, can be said as that time period which Earth takes to complete one full revolution around the Sun. We found that one year is around &lt;strong&gt;365 and one-fourth days&lt;/strong&gt;. To adjust this one fourth day, we added one full day to every fourth year. This was the basis of &lt;strong&gt;Julian calender system&lt;/strong&gt; which existed before 1752.&lt;/p&gt;
+
+&lt;p&gt;But to be precise one year is 365.2424 days. So whenever we were celebrating the new year day, Earth covered a little more path in it’s elliptical path, than one complete revolution. This small change accumulates and becomes a difference of 11 days in about 1600 years.&lt;/p&gt;
+
+&lt;p&gt;What the difference of 11 days means? It means whatever the Earth’s position is it today, it will be ahead of it by 11 days in about full 1600 years.&lt;/p&gt;
+
+&lt;p&gt;Now this lead to some discrepancy among various religions when to celebrate their occasions as some followed moon’s cycle.&lt;/p&gt;
+
+&lt;p&gt;In order to correct this and save future trouble some decisions were made in year 1752. &lt;strong&gt;If you are hearing them for the first time, you’ll be amazed to know it.&lt;/strong&gt; They are as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pope said in a stern voice (I am being dramatic here)- “Erase these eleven days as we are already ahead according to the time of year”. And hence eleven days from September month of year 1752 were erased. Dates from 3rd September to 13th September 1752 don’t exist. Surprised? It’s true.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pope also said that from now on only those years will be leap years who are divisible by 4 or by 400. Century years that are divisible by 100 but not by 400 will not be leap years.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think pope was a mathematician or he had an advisor who was good in mathematics. I say this because giving this rule of calculating leap years ensured that we will not fall into the same trouble in future again.&lt;/p&gt;
+
+&lt;p&gt;How? Let’s see…&lt;/p&gt;
+
+&lt;p&gt;According to rule 2 above, calculate how many days there will be in 400 years.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(Thought process….&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hmmm, in 400 years there will be 100 leap years according to old definition, but then I have to cancel those century years which are not divisible by 400, there are 3 such century years in a range of 400 years. So volla, in 400 years number of leap years are- 97 LEAP YEARS. &lt;strong&gt;)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Total days in 400 years (According to calender) = 400*365 + 97 = 146097 days.&lt;/p&gt;
+
+&lt;p&gt;Now we know that one year consists of 365.2424 days. How many days in 400 years?&lt;/p&gt;
+
+&lt;p&gt;Total days in 400 years (According to observation)= 400*365.2424 = 146096.96 days.&lt;/p&gt;
+
+&lt;p&gt;It comes almost same with a difference of 0.04 day in 400 years. That’s bearable. And hence the law was signed to bring the rules in effect immediately.&lt;/p&gt;
+
+&lt;p&gt;I know, this sounds bizarre right? But this is how it is.&lt;/p&gt;
+
+&lt;p&gt;If you still have some doubts, read this:&lt;/p&gt;
+
+&lt;p&gt;There is a cal command in linux systems which gives calender of years in range 1 to 9999.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check for year 100&lt;/strong&gt;. You will find it as a leap year because the new rule was implemented in 1752.&lt;/p&gt;
+
+&lt;p&gt;Need something more? &lt;strong&gt;Check calender of year 1752 and look for September month&lt;/strong&gt;. You’ll find 11 days missing.&lt;/p&gt;
+
+&lt;p&gt;Also to support what I have said, calculate this:&lt;/p&gt;
+
+&lt;p&gt;We got the difference of 0.04 days in 400 years. In how many years will this difference be of one full day?&lt;/p&gt;
+
+&lt;p&gt;Years for difference of 1 day = 400/0.04 = 10,000 years. And that is the range of cal command because it hasn’t been decided where to put this one more extra day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be force with you!!!!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 May 2015 00:00:00 +0530</pubDate>
+        <link>/articles/2015/05/16/Leap-year.html</link>
+        <guid isPermaLink="true">/articles/2015/05/16/Leap-year.html</guid>
+        
+        <category>Gregorian Calender</category>
+        
+        <category>Leap Year</category>
+        
+        <category>Calender</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>One Month Remaining in College</title>
+        <description>&lt;p&gt;Exactly one month from today, our work in IIIT-B will be officially finished. Farewell from any place brings a lot of memories and thoughts. Thoughts which lead a person to fetch answers of some questions like - how fruitful it was, what next etc.&lt;/p&gt;
+
+&lt;p&gt;Currently I am tied up in my thesis work and have to finish it with full zeal and concentration. Though I have not done very significant amount of work, it surely has removed the fear of few subjects. For this I will be very thankful to my supervisor and friends.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 May 2015 00:00:00 +0530</pubDate>
+        <link>/articles/2015/05/15/One-month-remaining-in-college.html</link>
+        <guid isPermaLink="true">/articles/2015/05/15/One-month-remaining-in-college.html</guid>
+        
+        <category>Masters</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Thinking Neumannically? Think again ...</title>
+        <description>&lt;p&gt;i7 processors having 2.7 GHz clock speed, boosted to 3.3 GHz. Means in one second 3300000000 clock cycles are executed, capable of executing 92 billion instructions per second.&lt;/p&gt;
+
+&lt;p&gt;It certainly leaves you with a chill feeling. Isn’t it?&lt;/p&gt;
+
+&lt;p&gt;Do we ever imagine that so much is going on when we simply do a “quick” check of our facebook account and that too several times a day?&lt;/p&gt;
+
+&lt;p&gt;This article is going to be about the most basic element which started the revolution of Digital Computers…&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;- Have you ever wondered that in the name &lt;strong&gt;John von Neumann&lt;/strong&gt;, von starts with a small case v?&lt;/p&gt;
+
+&lt;p&gt;One of my great teachers always says – “Tum dekhta hai par dekhta nai”, means we see but we don’t observe. The question above stands a testimony of the quote.&lt;/p&gt;
+
+&lt;p&gt;While building EDVAC (Electronic Discrete Variable Automatic Computer, a computer weighing 7850 kg.), an architecture was proposed as von Neumann Architecture.&lt;/p&gt;
+
+&lt;p&gt;Now why are we discussing an architecture that was introduced over 60 years ago? Because, even today you pick any desktop computer and it still uses the same architecture.&lt;/p&gt;
+
+&lt;p&gt;John von Neumann was a great mathematician. As the greatest inventions have simplest underlying principle, von Neumann architecture is no exception.&lt;/p&gt;
+
+&lt;p&gt;It says that program and data reside in same memory. There is a connection between CPU and memory (RAM), called bus. At a time CPU can either be fetching/writing data or fetching an instruction from memory. It’s simple right?&lt;/p&gt;
+
+&lt;p&gt;If you’re an Undergraduate in Computer Science, I bet some bells must be ringing in your mind. I’ll give you a hint, it’s called – &lt;strong&gt;“Universal Turing Machine”&lt;/strong&gt;, which reads data from memory (through a memory tape) executed it and again writes back the result in memory. It’s not just a coincidence for two concepts so similar to emerge in near about the same time. Many of us don’t know but Alan Turing and John von Neumann worked together to shape the computers as we see them today. &lt;/p&gt;
+
+&lt;p&gt;Coming back to the von Neumann architecture, we still use it with some modifications. Like cache has been inserted to get better speed. But that too is only a modification since at a time processor can either fetch an instruction or fetch/write data. So what’s so great about it that we still use it (no offense to sir Neumann). It’s simplicity of performing either of the tasks is the main reason why it’s still used. &lt;/p&gt;
+
+&lt;p&gt;Imagine a computer where Instructions reside in different memory and data in a different one (this is Harvard architecture). The problem will be when to select what has to be done and then the selection would itself require some computation to be done which would again be performed by the same CPU. This complexity has forced processor makers to think in terms of Neumann architecture.&lt;/p&gt;
+
+&lt;p&gt;The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The term “von Neumann bottleneck” was coined by John Backus in his 1977 ACM Turing Award lecture.&lt;/strong&gt; According to Backus:
+&lt;cite&gt;
+“Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.”&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;To make it simpler, we all know about instruction set and simple C.&lt;/p&gt;
+
+&lt;p&gt;Suppose we want to add two numbers. The c statement will be:&lt;/p&gt;
+
+&lt;p&gt;c = a + b;&lt;/p&gt;
+
+&lt;p&gt;Where a, b, c are variables.
+Finally it will be converted into a sequence of instructions such as:&lt;/p&gt;
+
+&lt;p&gt;LDA  a&lt;/p&gt;
+
+&lt;p&gt;ADD b&lt;/p&gt;
+
+&lt;p&gt;STA  c&lt;/p&gt;
+
+&lt;p&gt;Further will be converted to:&lt;/p&gt;
+
+&lt;p&gt;DR -&amp;gt; M[a]   //DR- data register M[a]- stands for memory reference at address a. &lt;/p&gt;
+
+&lt;p&gt;AC -&amp;gt; DR         // AC – accumulator register &lt;/p&gt;
+
+&lt;p&gt;DR -&amp;gt; M[b]&lt;/p&gt;
+
+&lt;p&gt;AC -&amp;gt; AC + DR&lt;/p&gt;
+
+&lt;p&gt;M[c] -&amp;gt; AC&lt;/p&gt;
+
+&lt;p&gt;We observe that at one time either the data or an instruction (such as addition) is fetched from memory (and hence the Neumann architecture). &lt;/p&gt;
+
+&lt;p&gt;That means computer has to perform tasks serially? Yes, it performs tasks serially at this level. But today parallelism is achieved today using computers based on von Neumann architectures in a different way through threads and employing multiple processors in a system. You can find a great practical article here. &lt;/p&gt;
+
+&lt;p&gt;But from our previous program we can see how von Neumann architecture forces high level language developers to think in Neumann way. Read &lt;a href=&quot;http://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf&quot;&gt;“this”&lt;/a&gt; article and you will be amazed.&lt;/p&gt;
+
+&lt;p&gt;There are systems build on Harvard architecture. But due to the concept of Cache memory we use today (which is modified Harvard architecture), the Harvard architecture is of little practical use.&lt;/p&gt;
+
+&lt;p&gt;In my opinion John von Neumann was a great administrator too, coz he employed the greatest administration rule, which was &lt;strong&gt;Keep It Short and Simple&lt;/strong&gt;, unlike this article. :P&lt;/p&gt;
+
+&lt;p&gt;Oh I almost forgot to answer: &lt;strong&gt;why v is in small case in the name John von Neumann?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer is- &lt;strong&gt;go GOOGLE it!!&lt;/strong&gt;  Self learning is the best.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be force with you.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Further Read &lt;a href=&quot;http://qss.stanford.edu/~godfrey/vonNeumann/vnedvac.pdf&quot;&gt;“The First Draft Report on the EDVAC”&lt;/a&gt;. &lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 May 2015 00:00:00 +0530</pubDate>
+        <link>/articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html</link>
+        <guid isPermaLink="true">/articles/2015/05/10/Thinking-Neumannically%3F-Think-again.html</guid>
+        
+        <category>John von Neumann</category>
+        
+        <category>von Neumann Architecture</category>
+        
+        <category>Universal Turing Machine</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+  </channel>
+</rss>
