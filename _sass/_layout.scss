@@ -18,7 +18,8 @@
     &,
     &:visited
     &:hover {
-      color: $brand-top-color; //$grey-color-dark
+
+      color: $darkcyan; //$grey-color-dark
       /* border-bottom: 1px dotted; */
       text-decoration: none;
     }
@@ -33,7 +34,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   text-align:center; 
-  color: $grey-color;
+  color: $darkcyan;
 }
 
 .site-nav {

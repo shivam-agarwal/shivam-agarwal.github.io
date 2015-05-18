@@ -253,7 +253,7 @@ cite {
   text-align: center; }
   .site-title a, .site-title a:visited
   .site-title a:hover {
-    color: #2583ad;
+    color: #008b8b;
     /* border-bottom: 1px dotted; */
     text-decoration: none; }
 
@@ -263,7 +263,7 @@ cite {
   letter-spacing: -1px;
   margin-bottom: 0;
   text-align: center;
-  color: #828282; }
+  color: #008b8b; }
 
 .site-nav {
   /*float: right;*/

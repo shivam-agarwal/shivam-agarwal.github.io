@@ -9,7 +9,7 @@ tags:
 
 ---
 
-I wrote the article a year back when pondered over quality and areas of improvement in education system. Apparently many people think that educational system needs improvement and I am no exception to that. I wrote the following as an open letter which expresses my opinion and feelings. I think in future I'll agree with some points and disagree with others...
+I wrote the article a year back while pondering over quality and areas of improvement in education system. Apparently many people think that educational system needs improvement and I am no exception to that. I wrote the following as an open letter which expresses my opinion and feelings. I think in future I'll agree with some points and disagree with others...
 <!-- more -->
 
 I address this letter to all the highly qualified faculties, which have changed several
