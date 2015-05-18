@@ -3,7 +3,7 @@ published: true
 title: One Month Remaining in College
 layout: post
 author: Shivam Agarwal
-category: articles
+category: General
 tags: 
 - Masters
 

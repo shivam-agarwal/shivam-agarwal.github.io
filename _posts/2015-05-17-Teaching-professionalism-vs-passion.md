@@ -3,7 +3,7 @@ published: true
 title: Teaching - Professionalism vs. Passion
 layout: post
 author: Shivam Agarwal
-category: articles
+category: General
 tags: 
 - Teaching
 

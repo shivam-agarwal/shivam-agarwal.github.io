@@ -3,7 +3,7 @@ published: true
 title: Thinking Neumannically? Think again ...
 layout: post
 author: Shivam Agarwal
-category: articles
+category: Computer articles
 tags: 
 - John von Neumann
 - von Neumann Architecture
