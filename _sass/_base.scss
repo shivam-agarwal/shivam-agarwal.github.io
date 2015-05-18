@@ -21,6 +21,13 @@ body {
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
+
+  background-image: url("/images/bgimg6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    /*background-position: right top;*/
+
+
 }
 
 
