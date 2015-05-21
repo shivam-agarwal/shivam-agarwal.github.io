@@ -14,8 +14,9 @@ tags:
 Once upon a time, there was a child
 
 a bit ashthematic, thinking - "will this unwind?"
-
+...
 <br />
+<!-- more -->
 
 In every PE class he sat on stands,
 
@@ -28,7 +29,7 @@ Noone cared what was he missing,
 coz everytime he ran, his heart was pounding
 
 <br />
-<!-- more -->
+
 
 Years went by and he also didn't care
 
