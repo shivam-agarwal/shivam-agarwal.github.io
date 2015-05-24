@@ -10,49 +10,39 @@ tags:
 
 ---
 
+<p class="para-center" style="font-style:italic;">
 
-Once upon a time, there was a child
+Once upon a time, there was a child<br />
 
-a bit ashthematic, thinking - "will this unwind?"
-...
-<br />
+a bit ashthematic, thinking - "will this unwind?" ...<br />
 <!-- more -->
-
-In every PE class he sat on stands,
-
-while others ran fast, he gave glance
+<br />
+In every PE class he sat on stands,<br />
+while others ran fast, he gave glance<br />
 
 <br />
 
-Noone cared what was he missing,
-
-coz everytime he ran, his heart was pounding
-
-<br />
-
-
-Years went by and he also didn't care
-
-there was much to do, he thought
-
-and said, "at least I am breathing same air"
+Noone cared what was he missing,<br />
+coz everytime he ran, his heart was pounding<br />
 
 <br />
 
-nine years went by, he didn't care
-
-And one day, a friend said
-
-"I will run beside you, atleast try"
+Years went by and he also didn't care<br />
+there was much to do, he thought<br />
+and said, "at least I am breathing same air"<br />
 
 <br />
 
-Then he ran with friend for the first time
-
-he was happy even with 15 min. a mile !!!
+nine years went by, he didn't care<br />
+And one day, a friend said<br />
+"I will run beside you, atleast try"<br />
 
 <br />
 
+Then he ran with friend for the first time<br />
+he was happy even with 15 min. a mile !!!<br />
+<br />
+</p>
 
 Yeah that child is me. For almost my entire life I was not able to run for even 600 meters without gasping for air. But now I am so happy and thankful to the friend to make me realize the fun in running. Earlier I saw some running events in my hometown and I used to think- "what are they doing?". On 17 May 2015, for the first time I became "they". I ran 6 km in TCS Bangalore run. 
 
