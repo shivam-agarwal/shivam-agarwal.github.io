@@ -18,8 +18,8 @@
     &,
     &:visited
     &:hover {
-
-      color: $darkcyan; //$grey-color-dark
+      color: #7B7979;
+    //  color: $darkcyan; //$grey-color-dark
       /* border-bottom: 1px dotted; */
       text-decoration: none;
     }
@@ -191,7 +191,7 @@
 }
 
 .post-title {
-  font-size: 30px;//42px;
+  font-size: 26px;//42px;
   letter-spacing: -1px;
   line-height: 1;
 

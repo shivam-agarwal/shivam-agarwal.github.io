@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'Maven Pro', sans-serif;
+$base-font-family: 'Droid Serif', serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6em;
@@ -14,12 +14,13 @@ $base-line-height: 1.6em;
 $spacing-unit:     15px;
 
 $text-color:       #111;
-$background-color: #f9f9f9;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 $brand-top-color:  #2583ad;
 $hover-color:      #DD1144;
 
-$darkcyan: 	   #008b8b;
+// $darkcyan: 	   #008b8b;
+$darkcyan: 	   #000000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -60,5 +61,5 @@ $on-laptop:        800px;
         "_syntax-highlighting-native" // "syntax-highlighting"
 ;
 
-@import url('http://fonts.googleapis.com/css?family=Maven Pro');
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 

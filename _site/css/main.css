@@ -2,7 +2,7 @@
 /**
  * Reset some basic elements
  */
-@import url("http://fonts.googleapis.com/css?family=Maven Pro");
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 body, h1, h2, h3, h4,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -13,16 +13,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Droid Serif", serif;
   font-size: 16px;
   line-height: 1.6em;
   font-weight: 400;
   color: #111;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
-  background-image: url("/images/bgimg6.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   /*background-position: right top;*/ }
 
 /**
@@ -36,19 +33,27 @@ ul, ol, dl, figure {
 /**
  * Set main page style
  */
+ /*
+
 .container {
-  min-height: 100%;
+  min-height:100%;
   max-width: -webkit-calc(1000px - (15px * 2));
-  max-width: calc(1000px - (15px * 2));
+  max-width:         calc(1000px - (15px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 30px;
-  background-color: #fff;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  box-shadow: 1px 1px 10px #BBB; }
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  padding-top:30px;
+
+  background-color:#fff;
+  margin-top:20px;
+  margin-bottom:30px;
+  box-shadow: 1px 1px 10px #BBB;
+}
+
+*/
+.container {
+  padding-top: 30px; }
 
 /*for media*/
 *, *:before, *:after {
@@ -257,7 +262,7 @@ cite {
   text-align: center; }
   .site-title a, .site-title a:visited
   .site-title a:hover {
-    color: #008b8b;
+    color: #7B7979;
     /* border-bottom: 1px dotted; */
     text-decoration: none; }
 
@@ -267,7 +272,7 @@ cite {
   letter-spacing: -1px;
   margin-bottom: 0;
   text-align: center;
-  color: #008b8b; }
+  color: #000000; }
 
 .site-nav {
   /*float: right;*/
@@ -276,7 +281,7 @@ cite {
   line-height: 56px;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   /*border: 1px solid $grey-color-light; */ }
   .site-nav .menu-icon {
     display: none; }
@@ -293,7 +298,7 @@ cite {
   @media screen and (max-width: 600px) {
     .site-nav {
       position: relative;
-      background-color: #f9f9f9;
+      background-color: #ffffff;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: center; }
@@ -358,21 +363,21 @@ cite {
   color: #828282; }
 
 .post-title a, .post-title a:visited .post-title a:hover {
-  color: #008b8b; }
+  color: #000000; }
 
 .post-link {
   display: block;
-  color: #008b8b; }
+  color: #000000; }
 
 /**
  * Posts
  */
 .post-header {
   margin-bottom: 15px;
-  color: #008b8b; }
+  color: #000000; }
 
 .post-title {
-  font-size: 30px;
+  font-size: 26px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
