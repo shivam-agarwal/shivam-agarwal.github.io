@@ -54,5 +54,6 @@ I will continue running because it regenerates optimism and recharges with posit
 
 P.S.: You don't believe it? Give it a try ... 
 
-
+<p class="para-center">
 <img src = "/images/running_pic.png"/>
+</p>
