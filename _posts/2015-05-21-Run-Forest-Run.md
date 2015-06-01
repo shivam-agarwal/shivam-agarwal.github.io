@@ -14,7 +14,7 @@ tags:
 
 Once upon a time, there was a child<br />
 
-a bit ashthematic, thinking - "will this unwind?" ...<br />
+a bit lethargic, thinking - "will this unwind?" ...<br />
 <!-- more -->
 <br />
 In every PE class he sat on stands,<br />
