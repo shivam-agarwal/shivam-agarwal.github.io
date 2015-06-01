@@ -8,8 +8,8 @@ tags:
 - Poem
 
 ---
-My elder brother got married last year in the month of January. At that time I made a <a href = "http://shivam-hello.appspot.com/" target = "_blank">website </a> for them ( -sorry for the website name my purchased dns expired :P). My father wrote a beautiful poem and asked to add it to the site. I do not remember how it skipped my mind, but I forgot to do so. ... <!-- more -->
-Today suddenly I realized it, searched my mail for half an hour and volla found it. Now I remember why I didn't add to website at that time. Reason - it was in Hindi and I didn't knew how to write in any language other than English on web :P . Now I do. So without further adieu, here is the **_poem by my father for bhaiya and bhabhi :_**
+My elder brother got married last year in the month of January. At that time I made a <a href = "http://shivam-hello.appspot.com/" target = "_blank">website </a> for them ( -sorry for the website name my purchased dns expired :P). My father recalled a beautiful poem and asked to add it to the site. I do not remember how it skipped my mind, but I forgot to do so. ... <!-- more -->
+Today suddenly I realized it, searched my mail for half an hour and volla found it. Now I remember why I didn't add to website at that time. Reason - it was in Hindi and I didn't knew how to write in any language other than English on web :P . Now I do. So without further adieu, here is the **_poem  for bhaiya and bhabhi :_**
 
 <br /><br />
 
@@ -50,6 +50,7 @@ Today suddenly I realized it, searched my mail for half an hour and volla found 
 </p>
 
 <p class="hindi" style = "text-align:right; font-weight:600;"> - राजीव अग्रवाल <br />
+	(Recollected from a famous one) <br />
 <a href = "/images/poem.jpeg"><img src = "/images/poem_thumbnail.jpeg"  /></a>
 </p>
 
