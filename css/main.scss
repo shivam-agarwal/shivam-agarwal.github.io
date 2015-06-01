@@ -7,6 +7,10 @@
 
 // Our variables
 $base-font-family: 'Droid Serif', serif;
+
+$hindi-font-family: 'Halant', serif;
+$hindi-font-size:  18px;
+
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6em;
@@ -62,4 +66,5 @@ $on-laptop:        800px;
 ;
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Halant:400,500,600&subset=latin,devanagari);
 

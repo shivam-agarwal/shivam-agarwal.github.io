@@ -3,6 +3,7 @@
  * Reset some basic elements
  */
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Halant:400,500,600&subset=latin,devanagari);
 body, h1, h2, h3, h4,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -255,6 +256,11 @@ cite {
 
 .para-center {
   text-align: center; }
+
+.hindi {
+  font-family: "Halant", serif;
+  font-weight: 500;
+  font-size: 18px; }
 
 .site-title {
   font-size: 44px;
