@@ -187,13 +187,13 @@ for (var b = blocklink.length; b--;) {
 
 <p>It says that program and data reside in same memory. There is a connection between CPU and memory (RAM), called bus. At a time CPU can either be fetching/writing data or fetching an instruction from memory. It’s simple right?</p>
 
-<p>If you’re an Undergraduate in Computer Science, I bet some bells must be ringing in your mind. I’ll give you a hint, it’s called – <strong>“Universal Turing Machine”</strong>, which reads data from memory (through a memory tape) executed it and again writes back the result in memory. It’s not just a coincidence for two concepts so similar to emerge in near about the same time. Many of us don’t know but Alan Turing and John von Neumann worked together to shape the computers as we see them today. </p>
+<p>If you’re an Undergraduate in Computer Science, I bet some bells must be ringing in your mind. I’ll give you a hint, it’s called – <strong>“Universal Turing Machine”</strong>, which reads data from memory (through a memory tape) executed it and again writes back the result in memory. It’s not just a coincidence for two concepts so similar to emerge in near about the same time. Many of us don’t know but Alan Turing and John von Neumann worked together to shape the computers as we see them today.</p>
 
-<p>Coming back to the von Neumann architecture, we still use it with some modifications. Like cache has been inserted to get better speed. But that too is only a modification since at a time processor can either fetch an instruction or fetch/write data. So what’s so great about it that we still use it (no offense to sir Neumann). It’s simplicity of performing either of the tasks is the main reason why it’s still used. </p>
+<p>Coming back to the von Neumann architecture, we still use it with some modifications. Like cache has been inserted to get better speed. But that too is only a modification since at a time processor can either fetch an instruction or fetch/write data. So what’s so great about it that we still use it (no offense to sir Neumann). It’s simplicity of performing either of the tasks is the main reason why it’s still used.</p>
 
 <p>Imagine a computer where Instructions reside in different memory and data in a different one (this is Harvard architecture). The problem will be when to select what has to be done and then the selection would itself require some computation to be done which would again be performed by the same CPU. This complexity has forced processor makers to think in terms of Neumann architecture.</p>
 
-<p>The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!! </p>
+<p>The obvious question would be that if there is only a single bus, wouldn’t it be a drawback in terms of speed? Definitely yes!!</p>
 
 <p><strong>The term “von Neumann bottleneck” was coined by John Backus in his 1977 ACM Turing Award lecture.</strong> According to Backus:
 <cite>
@@ -216,9 +216,9 @@ Finally it will be converted into a sequence of instructions such as:</p>
 
 <p>Further will be converted to:</p>
 
-<p>DR -&gt; M[a]   //DR- data register M[a]- stands for memory reference at address a. </p>
+<p>DR -&gt; M[a]   //DR- data register M[a]- stands for memory reference at address a.</p>
 
-<p>AC -&gt; DR         // AC – accumulator register </p>
+<p>AC -&gt; DR         // AC – accumulator register</p>
 
 <p>DR -&gt; M[b]</p>
 
@@ -226,9 +226,9 @@ Finally it will be converted into a sequence of instructions such as:</p>
 
 <p>M[c] -&gt; AC</p>
 
-<p>We observe that at one time either the data or an instruction (such as addition) is fetched from memory (and hence the Neumann architecture). </p>
+<p>We observe that at one time either the data or an instruction (such as addition) is fetched from memory (and hence the Neumann architecture).</p>
 
-<p>That means computer has to perform tasks serially? Yes, it performs tasks serially at this level. But today parallelism is achieved today using computers based on von Neumann architectures in a different way through threads and employing multiple processors in a system. You can find a great practical article here. </p>
+<p>That means computer has to perform tasks serially? Yes, it performs tasks serially at this level. But today parallelism is achieved today using computers based on von Neumann architectures in a different way through threads and employing multiple processors in a system. You can find a great practical article here.</p>
 
 <p>But from our previous program we can see how von Neumann architecture forces high level language developers to think in Neumann way. Read <a href="http://www.cs.cmu.edu/~crary/819-f09/Backus78.pdf">“this”</a> article and you will be amazed.</p>
 
@@ -242,7 +242,7 @@ Finally it will be converted into a sequence of instructions such as:</p>
 
 <p><strong>Be force with you.</strong></p>
 
-<p>Further Read <a href="http://qss.stanford.edu/~godfrey/vonNeumann/vnedvac.pdf">“The First Draft Report on the EDVAC”</a>. </p>
+<p>Further Read <a href="http://qss.stanford.edu/~godfrey/vonNeumann/vnedvac.pdf">“The First Draft Report on the EDVAC”</a>.</p>
 
   </article>
   <hr />
