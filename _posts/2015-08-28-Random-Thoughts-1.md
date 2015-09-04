@@ -1,6 +1,6 @@
 --- 
 published: true
-title: Random Thoughts
+title: Random Thoughts - 1
 layout: post
 author: Shivam Agarwal
 category: General
