@@ -1,6 +1,6 @@
 --- 
 published: true
-title: The extended part of family
+title: The Extended Part of Family
 layout: post
 author: Shivam Agarwal
 category: General
